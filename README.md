@@ -18,3 +18,6 @@ proxy and reverse proxy
 
 
       CDNs (like Cloudflare) use reverse proxies to prevent DDoS attacks and improve website speed.
+
+VPNs encrypt internet traffic and reroute it through different locations, allowing users to 
+bypass geographic restrictions
