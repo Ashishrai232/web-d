@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+ #main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: #9e7a6d;
+ }
+
+ #part1{
+    height: 100%;
+    width: 26%;
+ }
+
+ #part2{
+    height: 100%;
+    width: 65%;
+    background-color: #f2f2f2;
+    background-image: url("photos/lk.jpg"); /*add your photos.*/
+    background-size: cover;
+    background-position: center;
+ }
+
+ #overlay{
+    height: 100%;
+    width: 100%;
+    background-color:  #9e7a6d30;
+ }
+
+ #part3{
+    height: 100%;
+    width: 9%;
+ }
+
+ #text-d{
+    /* height: 300px; */
+    position: absolute;
+    /* width: 400px; */
+    left: 5%;
+    top: 50%;
+    /* background-color: red; */
+    transform: translate(0,-50%);
+ }
+
+ #text-d>h1{
+    font-size: 85px;
+    line-height: 78px;
+    font-family: gilroy;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+
+    letter-spacing: 2px;
+
+ }
+
+ #small-img{
+    height: 300px;
+    width: 250px;
+    background-color: turquoise;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    background-image: url("photos/lk.jpg"); /*add your photos*/
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover
+ }
+
+ #overlay-in{
+    height: 100%;
+    width: 100%;
+    background-color:  #887e7b30;
+ }
+
+ #vertical-text{
+   position: absolute;
+   transform: rotate(90deg);  
+   right: -50%;
+   transform-origin:0% 0%;
+   /* width: 100%; */
+   /* background-color: red; */
+   
+ }
+ #vertical-text h1{
+   font-family: gilroy;
+   color: transparent;
+   font-weight: 900;
+   font-size:80px ;
+   letter-spacing: 5px ;
+   
+
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #fff;
+ }
